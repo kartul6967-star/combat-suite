@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "combatsuite",
+  "version": "1.0.0",
+  "name": "Combat Suite",
+  "description": "Triggerbot, player ESP, advanced nametags and target HUD.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.suite.SuiteClient"
+    ]
+  },
+  "mixins": [
+    "combatsuite.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
